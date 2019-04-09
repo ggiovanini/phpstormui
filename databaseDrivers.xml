@@ -68,6 +68,24 @@
       <option name="auto-sync" value="true" />
       <option name="send-app-info" value="false" />
     </driver>
+    <driver id="java.sql.Driver" name="Firebird 3.0.5 Interbase" driver-class="org.firebirdsql.jdbc.FBDriver">
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="schema-control" value="AUTOMATIC" />
+      <library>
+        <url>file://$USER_HOME$/Documents/Projects/sbFacil/DriveDB/Jaybird-3.0.5-JDK_1.8/jaybird-full-3.0.5.jar</url>
+      </library>
+    </driver>
+    <driver id="32a2431f-52c3-4cb6-8274-b19b769eac18" name="Firebird 2.0.8 Interbase" driver-class="org.firebirdsql.jdbc.FBDriver">
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="schema-control" value="AUTOMATIC" />
+      <library>
+        <url>file://$USER_HOME$/Documents/Projects/sbFacil/DriveDB/Jaybird-2.2.15-JDK_1.8/jaybird-full-2.2.15.jar</url>
+      </library>
+    </driver>
     <driver id="db2.jtopen">
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
       <option name="auto-sync" value="false" />
