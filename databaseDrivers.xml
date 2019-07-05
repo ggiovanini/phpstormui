@@ -64,9 +64,11 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="sqlserver.ms">
-      <artifact name="SQL Server" use="true" />
+      <artifact name="SQL Server" use="true" version="7.2.1" />
       <option name="auto-sync" value="true" />
       <option name="send-app-info" value="false" />
+      <option name="auto-commit" value="true" />
+      <option name="schema-control" value="AUTOMATIC" />
     </driver>
     <driver id="java.sql.Driver" name="Firebird 3.0.5 Interbase" driver-class="org.firebirdsql.jdbc.FBDriver">
       <option name="auto-commit" value="true" />
