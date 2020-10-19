@@ -12,6 +12,7 @@
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
+      <mapping pattern="error_log20201019" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
