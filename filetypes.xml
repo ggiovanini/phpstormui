@@ -1,13 +1,12 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping ext="ddl" type="DBN-SQL" />
       <mapping pattern="error_log" type="PLAIN_TEXT" />
       <mapping pattern="48b595716301526ab4496051fab4ca6682f06c4b" type="PLAIN_TEXT" />
       <mapping pattern="error_log20201019" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
       <mapping ext="ini-old" type="PLAIN_TEXT" />
-      <removed_mapping ext="ddl" type="SQL" />
+      <removed_mapping ext="ddl" approved="true" type="SQL" />
       <removed_mapping ext="fnc" approved="true" type="SQL" />
       <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping ext="pkb" approved="true" type="SQL" />
